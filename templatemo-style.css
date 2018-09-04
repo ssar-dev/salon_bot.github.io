@@ -1,4 +1,3 @@
-/* 
 
 Catalyst Template
 
@@ -22,7 +21,7 @@ a:focus {
 body{
     margin:0;
     padding:0;
-    background-image:url(tm-catalyst-bg.jpg);
+    background-image:url(../images/tm-catalyst-bg.jpg);
     background-repeat:repeat-y;
     background-size:cover;
     background-attachment: fixed;
@@ -50,7 +49,7 @@ p {
 }
 
 #home {
-    padding-top: 8.5em;
+    padding-top: 5.5em;
 }
 .content {
     padding-right: 0px;
@@ -76,7 +75,7 @@ p {
     font-weight: 300;
     font-size: 34px;
     line-height: 1.4;
-    margin-top: 130px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 .contact-title {
@@ -202,26 +201,26 @@ h1 { font-size: 54px; }
 .form-control:focus {
     border-color: rgba(204, 52, 103, 1);
     outline: 0;
-    box-shadow: inset 0 1px 1px rgba(204, 52, 103, 0.075), 0 0 8px rgba(204, 52, 103, 0.6);
+    box-shadow: inset 0 10px 1px rgba(204, 52, 103, 0.075), 0 0 8px rgba(204, 52, 103, 0.6);
 }
 
 .tm-img-tl {
-    padding-right: 5px;
+    padding-right: 10px;
     padding-bottom: 5px;
 }
 
 .tm-img-tr {
-    padding-top: 5px;
+    padding-top: 10px;
     padding-right: 5px;
 }
 
 .tm-img-bl {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-left: 5px;
 }
 
 .tm-img-br {
-    padding-top: 5px;
+    padding-top: 10px;
     padding-left: 5px;
 }
 
@@ -260,7 +259,7 @@ h1 { font-size: 54px; }
 }
 
 .tm-img-box-2,
-.tm-img-box-4 { margin-top: 15px; }
+.tm-img-box-4 { margin-top: 25px; }
 
 .tm-equal-col-container {
     display: -webkit-box;
@@ -279,6 +278,16 @@ h1 { font-size: 54px; }
     text-align: center;
     padding-top: 140px;
 }
+.text-uppercase {
+    position: absolute;
+    left: 150px;
+    top: 170px
+}
+
+h3 { font-size: 24px; position: absolute;
+    left: 150px;
+    top: 250px }
+
 
 @media screen and (max-width:1199px){
     .content-item { min-height: 600px !important; }
@@ -307,7 +316,7 @@ h1 { font-size: 54px; }
     .background p { line-height: 27px; }
     .background p { font-size: 16px; }
     .background h2 {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         margin-top: 0;
     }
     p { margin: 0 0 20px; }
